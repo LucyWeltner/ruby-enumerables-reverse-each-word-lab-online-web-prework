@@ -3,4 +3,4 @@ def reverse_each_word(string)
   p array_of_characters
 end
 
-reverse_each_word()
+reverse_each_word("Hello there, and how are you?")
