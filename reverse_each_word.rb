@@ -7,4 +7,4 @@ def reverse_each_word(string)
   string2
 end
 
-reverse_each_word("Hello there, world")
+p reverse_each_word("Hello there, world")
