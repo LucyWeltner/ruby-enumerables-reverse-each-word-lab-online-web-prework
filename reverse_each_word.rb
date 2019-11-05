@@ -2,10 +2,11 @@ def reverse_each_word(string)
   array_of_words = string.split(" ")
   string2 = ""
   array_of_words.each do |word|
-    string2 = word.reverse + " " + string2 
+    string2 = string2 + " " + word.reverse 
     p string2
     string2
   end
+  string2
 end
 
 reverse_each_word("Hello there, and how are you?")
