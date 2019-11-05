@@ -6,7 +6,7 @@ def reverse_each_word(string)
     string2
   end
   p string2
-  string2.slice(0,1)
+  string2.slice!(0,1)
   p string2
   string2
 end
