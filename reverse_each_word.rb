@@ -5,8 +5,6 @@ def reverse_each_word(string)
     end
   string2 = backwards_array.join(" ")
   p string2
-  string2.slice!(0,1)
-  string2
 end
 
 reverse_each_word("Hello there, world")
