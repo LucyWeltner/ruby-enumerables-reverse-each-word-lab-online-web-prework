@@ -1,6 +1,12 @@
 def reverse_each_word(string)
   array_of_words = string.split(" ")
-  array_of_words
+  array_of_words.each do |word|
+    if !string2
+      string2 = 0
+    else 
+      string2 += word.reverse
+    end
+    string2
 end
 
 p reverse_each_word("Hello there, and how are you?")
